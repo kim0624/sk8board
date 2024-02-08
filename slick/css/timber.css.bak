@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+nav{
+	background:rgba(255,255,255,0.5);
+	overflow:hidden;
+	height:100px;
+	-opacity:0.5;
+	display:block;
+
+}
+
+ul,li{
+	list-style-type:none;
+	float:left;
+	-display:inline-block;
+	position:relative;
+	left:30%;
+	margin:4px;
+	top:10px;
+}
+a{
+	text-decoration:none;
+	-display:inline-block;
+	padding:10px;
+	
+}
+
+
+.gnb_sub{
+	position:relative;
+	-width:300px;
+	left:50%;
+	top:-80px;
+	display:block;
+
+}
+
+.gnb_sub img{
+	width:50px;
+	height:50px;
+}
+
+
+
+
+
+
+
+/* 메인*/
+.main-visual{
+	width:1950px;
+	height:700px;
+	background:orange;
+}
